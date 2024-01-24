@@ -12,10 +12,10 @@ import (
 )
 
 func main() {
-	db.InitDB()
 	if err := godotenv.Load(); err != nil {
 		panic("Error loading .env file")
 	}
+	db.InitDB()
 	//list of Repos
 	myPokemonRepo := repository.NewMyPokemonRepo(db.DB)
 	// list of services

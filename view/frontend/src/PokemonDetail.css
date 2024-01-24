@@ -1,0 +1,47 @@
+.pokemon-detail-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.pokemon-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.moves-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.move-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+
+.types-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.type-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+
+
+

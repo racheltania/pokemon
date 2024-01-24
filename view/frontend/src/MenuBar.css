@@ -1,0 +1,49 @@
+.menu-bar {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-item:hover {
+    color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.modal-image {
+    max-width: 100%;
+}
